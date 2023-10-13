@@ -24,7 +24,23 @@ class FirstScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Malvin Hendrawan"),
+        actions: <Widget>[
+              IconButton(
+                onPressed: () {},
+                icon: const Icon(
+                  Icons.search,
+                  color: Colors.white,
+                ))
+        ],
+      leading: IconButton(
+        onPressed: () {},
+                icon: const Icon(
+                  Icons.home,
+                  color: Colors.white,
+                )),
+
       ),
+      
       body: const Center(
         child: Text("Hello Malvin Hendrawan"),
       ),
